@@ -5,8 +5,8 @@
       <div><strong>Описание: </strong> {{ post.body }}</div>
     </div>
     <div class="post__btns">
-      <button>Открыть</button>
-      <button>Удалить</button>
+      <my-button style="margin-right: 10px">Открыть</my-button>
+      <my-button>Удалить</my-button>
     </div>
   </div>
 </template>
