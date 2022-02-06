@@ -2,10 +2,11 @@
   <div class="navbar">
     <div @click="$router.push('/')">Vue 3</div>
     <div class="navbar__btns">
-      <my-button @click="$router.push('/posts')" style="margin-right: 15px"
-        >Посты</my-button
+      <my-button @click="$router.push('/posts')">Посты</my-button>
+      <my-button style="margin: 0 15px" @click="$router.push('/about')"
+        >О сайте</my-button
       >
-      <my-button @click="$router.push('/about')">О сайте</my-button>
+      <my-button @click="$router.push('/store')">store</my-button>
     </div>
   </div>
 </template>
