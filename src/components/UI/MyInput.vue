@@ -22,5 +22,6 @@ export default {
   border: 1px solid teal;
   margin-top: 15px;
   padding: 10px 15px;
+  min-width: 300px;
 }
 </style>
